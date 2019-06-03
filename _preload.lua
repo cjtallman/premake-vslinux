@@ -1,3 +1,7 @@
+local function vsver()
+    return string.match(_ACTION or "", "vs(%d*)") or 0
+end
+
 return function(cfg)
-	return (_ACTION >= "vs2015" and cfg.system == premake.LINUX)
+	return (vsver() >= 2015 and cfg.system == premake.LINUX)
 end

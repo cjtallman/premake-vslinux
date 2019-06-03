@@ -2,7 +2,7 @@ Premake module to support the VSLinux extension for Visual Studio 2015.
 
 ### Features ###
 
-* Support actions: vs2015
+* Support actions: vs2015, vs2017, vs2019
 
 ### Usage ###
 
